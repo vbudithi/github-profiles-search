@@ -146,3 +146,17 @@ use-info ul li{
      font-size:0.9rem;
      margin-left:0.5rem;
 }
+
+.repo {
+    display:inblock;
+    border-radius: 5px;
+    background-color: #2a2a72;
+    color:white;
+    font-size:0.7rem;
+    padding:0.25rem 0.5rem;
+    margin-right:0.5rem;
+    margin-bottom:0.5rem;
+    text-decoration:none;
+
+    
+}
