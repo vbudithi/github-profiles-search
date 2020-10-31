@@ -2,7 +2,15 @@
 
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
+
+.wrapper {
+    width:100%;
+}
+
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -42,13 +50,17 @@ input:focus{
 }
 
 .fab{
- font-size: 108px;
+ padding-top: 80px;
+  margin-left:-9.5rem;
+  font-size: 108px;
   width: 100px;
   color: black;
   display: inline-block;
   position: relative;
   text-align: center;
  transform: translate(360%,-25%) ;
+ margin-right: 25px;
+ 
 }
 
 .fab:hover{
@@ -88,7 +100,7 @@ color:darkblue;
         0 15px 40px rgba(0, 0, 0, 0.1);
     display: flex;
     padding: 3rem;
-    max-width: 800px;
+    max-width: 1500px;
 
 }
 
@@ -104,11 +116,14 @@ color:darkblue;
 }
 
 .avatar {
+    
     border: 10px solid#CDCDCD;
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    
 }
+
 .icon{
     height:40px;
     width:40px;
@@ -118,9 +133,22 @@ color:darkblue;
     color: #eee;
     margin-left: 2rem;
 }
+.main-text{
+     margin-top:0;
+     padding:10px 80px 20px;
+}
+
+.form{
+    padding: 10px 20px 20px;
+    margin-left:5.8rem;
+}
 
 .user-info h2 {
     margin-top: 0;
+    padding: 30px 30px 20px;
+    font-size:50px;
+    color:#111;
+    line-height:44px;
 }
 
 
